@@ -1,6 +1,6 @@
 # An infix to RPN converter and integrator
 
-This is a C++20 program that converts mathematical expressions from standard infix notation to Reverse Polish Notation (RPN) and then calculates the definite integral over various ranges. 
+This is a C++20 program in one [file](RpnConversionAndIntegrator/RpnConversionAndIntegrator.cpp) that converts mathematical expressions from standard infix notation to Reverse Polish Notation (RPN) and then calculates the definite integral over various ranges. 
 
 This task encompasses parsing input expressions, handling operator precedence, and implementing a user-friendly Read-Eval-Print Loop (REPL) for user interaction.
 
@@ -68,7 +68,11 @@ To be clear, valid input tokens are:
 * `*` `/` `+` `-` `^` `x`
 * A `double` value represented as a string.
 
-It is relatively trivial to extend this. The code was designed to be readily extensible. To find something far more sophisticated (distributed, multi-language, synchronised executable environment with co-routines, see [KAI](https://github.com/cschladetsch/KAI) for C++ or [Pyro](https://github.com/cschladetsch/Pyro) for C#.
+It is relatively trivial to extend this. The code was designed to be readily extensible. To find something far more sophisticated (distributed, multi-language, synchronised executable environment with co-routines), see [KAI](https://github.com/cschladetsch/KAI) for C++ or [Pyro](https://github.com/cschladetsch/Pyro) for C#. Both _KAI_ and _Pyro_ support Unity3d.
+
+They also have their own REPL consoles and Windows Development environments. But we're here about this repo. 
+
+It is intentionally a toy project, but it uses some very advanced approaches and uses around 80 lines of actual C++20 code.
 
 ## Sample Output
 
