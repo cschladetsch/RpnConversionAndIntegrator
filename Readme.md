@@ -14,6 +14,7 @@ The goal was to develop an efficient program for converting natural in-fix expre
     - A C++ program that performs the following core tasks:
     - Accept a mathematical function in standard infix notation as input, encompassing supported operations and an independent variable 'x.'
     - Convert the input function into its equivalent Reverse Polish Notation (RPN) representation.
+    - Designed to make it trival to add more operations and functions.
     - Evaluate the RPN expression repeatedly to calculate the value of the integral over a user-provided range of values for 'x.'
     - Assumes all input is valid.
     - Traps for mathematical errors like division by zero. In this case, reports an error and continues processing.
