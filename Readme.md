@@ -58,15 +58,17 @@ The goal was to develop an efficient program for converting natural in-fix expre
 
 ## Notes
 
-Uses best practice C++20. The code is simple and well structured, and avooid long functions and high cyclomatic complexity. Uses `std::views` and other C++20 libraries to do this.
+Uses best practice C++20. The code is simple and well structured, and avoid long functions and high cyclomatic complexity. Uses `std::views` and other C++20 libraries to do this.
 
 This is a non-trivial task. Extensive test cases are not provded.
 
-Uses std::copy and std::transform to reduce loop statements.
+Uses `std::copy` and `std::transform` to reduce use of troublesome loop statements. I should write a paper called "The problem with Loop Statements in C++".
 
 To be clear, valid input tokens are:
 * `*` `/` `+` `-` `^` `x`
 * A `double` value represented as a string.
+
+It is relatively trivial to extend this. The code was designed to be readily extensible. To find something far more sophisticated (distributed, multi-language, synchronised executable environment with co-routines, see [KAI](https://github.com/cschladetsch/KAI) for C++ or [Pyro(https://github.com/cschladetsch/Pyro) for C#.
 
 ## Sample Output
 
