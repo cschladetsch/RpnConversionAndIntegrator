@@ -60,7 +60,7 @@ The goal was to develop an efficient program for converting natural in-fix expre
 
 Uses best practice C++20. The code is simple and well structured, and avoid long functions and high cyclomatic complexity. Uses `std::views` and other C++20 libraries to do this.
 
-This is a non-trivial task. Extensive test cases are not provded.
+This is a non-trivial task. Extensive test cases are provided in the [Tests](Tests) folder.
 
 Uses `std::copy` and `std::transform` to reduce use of troublesome loop statements. I should write a paper called "The problem with Loop Statements in C++".
 
