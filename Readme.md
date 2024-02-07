@@ -89,6 +89,7 @@ Result: 13.3333
 Enter the range of integration: 2 4 
 Result: 23.373
 Enter the range of integration:
+```
 
 ## Images
 
