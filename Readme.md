@@ -92,5 +92,6 @@ Enter the range of integration:
 
 ## Images
 
-![Symbolic Solution](Resources/rpn.png)
-![Result](Resources/Result.png)
+[![Symbolic Solution](Resources/rpn.png)]
+[![Result](Resources/Result.png)]
+
