@@ -1,6 +1,6 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
-#include "../RpnConversionAndIntegrator/Calculator.hpp"
+#include "Calculator.hpp"
 
 using Calc = Calculator<double>;
 
