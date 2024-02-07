@@ -90,4 +90,7 @@ Enter the range of integration: 2 4
 Result: 23.373
 Enter the range of integration:
 
+## Images
 
+![Symbolic Solution](Resources/rpn.png)
+![Result](Resources/Result.png)
