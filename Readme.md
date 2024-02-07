@@ -1,6 +1,6 @@
 # An infix to RPN converter and integrator
 
-This is a C++20 program in one [file](RpnConversionAndIntegrator/RpnConversionAndIntegrator.cpp) that converts mathematical expressions from standard infix notation to Reverse Polish Notation (RPN) and then calculates the definite integral over various ranges. 
+This is a C++20 program in one [header file](Include/Calculator.hpp) that converts mathematical expressions from standard infix notation to Reverse Polish Notation (RPN) and then calculates the definite integral over various ranges. 
 
 This task encompasses parsing input expressions, handling operator precedence, and implementing a user-friendly Read-Eval-Print Loop (REPL) for user interaction.
 
