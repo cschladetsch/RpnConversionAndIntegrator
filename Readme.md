@@ -68,7 +68,7 @@ To be clear, valid input tokens are:
 * `*` `/` `+` `-` `^` `x`
 * A `double` value represented as a string.
 
-It is relatively trivial to extend this. The code was designed to be readily extensible. To find something far more sophisticated (distributed, multi-language, synchronised executable environment with co-routines, see [KAI](https://github.com/cschladetsch/KAI) for C++ or [Pyro(https://github.com/cschladetsch/Pyro) for C#.
+It is relatively trivial to extend this. The code was designed to be readily extensible. To find something far more sophisticated (distributed, multi-language, synchronised executable environment with co-routines, see [KAI](https://github.com/cschladetsch/KAI) for C++ or [Pyro](https://github.com/cschladetsch/Pyro) for C#.
 
 ## Sample Output
 
