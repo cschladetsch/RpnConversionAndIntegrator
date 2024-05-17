@@ -6,8 +6,7 @@ This task encompasses parsing input expressions, handling operator precedence, a
 
 The program is versatile, accommodating a variety of mathematical expressions that include supported operations and a single independent variable, `x`. 
 
-The goal was to develop an efficient program for converting natural in-fix expressions to RPN and systematically evaluating them to calculate the integral of the function in a given range.
-
+The goal was to develop an efficient program for converting natural in-fix expressions to RPN and systematically evaluating them to calculate the integral of the function in a given range. 
 ## Abilities
 
 1. **Implementation in C++**:
